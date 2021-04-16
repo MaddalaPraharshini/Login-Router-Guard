@@ -1,0 +1,18 @@
+<div class="container">
+    <h4>Employee Page</h4>
+</div>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav">
+            <li><a [routerLink]="['./add']">AddEmployee</a> |
+                <a [routerLink]="['./all']">AllEmployee</a> |
+                <a [routerLink]="['./update']">UpdateEmployee</a>|
+                <a [routerLink]="['./delete']">DeleteEmployee</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<hr>
+<router-outlet></router-outlet>
+
+
